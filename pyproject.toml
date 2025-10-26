@@ -1,0 +1,19 @@
+[project]
+name = "pyfreq"
+version = "0.1.0"
+description = "Simple freq implementation in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+pyfreq = "pyfreq.main:main"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]

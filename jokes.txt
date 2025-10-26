@@ -1,0 +1,3 @@
+Why did the Python developer go broke?
+
+Because he kept using "import this" instead of "import cash".
