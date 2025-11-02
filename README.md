@@ -7,20 +7,34 @@ The project is intentionally minimal to showcase the essentials of CLI developme
 
 Read more about building Python CLIs with UV in this blog post:  
 [build-cli-with-uv](https://ricky-lim.github.io/blog/build-cli-with-uv)  
+[development-workflow-with-just](https://ricky-lim.github.io/blog/development-workflow-with-just)
 
 ## How to Run
 
 1. Make sure you have [UV](https://github.com/astral-sh/uv) installed.
-2. Run the CLI using the following command:
+2. Make sure you have [just](https://github.com/casey/just) installed.
 
 ```bash
-uv run pyfreq <word> <filename>
+# All the development workflow
+just
+
+# Get started
+just fresh
+
+# Run
+just run developer jokes.txt
+
+# Test
+just test
+
+# Quality check
+just check-all
 ```
 
-Example:
+## How to use
 
 ```bash
-uv run pyfreq developer jokes.txt
+pyfreq developer jokes.txt
 ```
 
 This will count the occurrences of the word "developer" in the file `jokes.txt`.
