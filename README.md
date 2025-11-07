@@ -6,8 +6,9 @@ The project is intentionally minimal to showcase the essentials of CLI developme
 ## Blog
 
 Read more about building Python CLIs with UV in this blog post:  
-[build-cli-with-uv](https://ricky-lim.github.io/blog/build-cli-with-uv)  
-[development-workflow-with-just](https://ricky-lim.github.io/blog/development-workflow-with-just)
+
+- [build-cli-with-uv](https://ricky-lim.github.io/blog/build-cli-with-uv)  
+- [development-workflow-with-just](https://ricky-lim.github.io/blog/development-workflow-with-just)
 
 ## How to Run
 

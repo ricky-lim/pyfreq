@@ -1,5 +1,5 @@
 @_:
-    just --list
+    just --list --unsorted
 
 
 # Recreate project from nothing
@@ -40,6 +40,7 @@ test *args:
 
 # Perform all quality check
 [group('quality')]
+[parallel]
 check-all: lint cov typing
 
 
